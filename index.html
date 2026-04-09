@@ -11,6 +11,17 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <div class="utility-bar" aria-label="Utility links">
+    <div class="container utility-bar-inner">
+      <p>Now scheduling premium test drives in Accra and Kumasi.</p>
+      <div class="utility-links">
+        <a href="#ownership">Ownership Benefits</a>
+        <a href="#compare">Compare Models</a>
+        <a href="#contact">Schedule Call</a>
+      </div>
+    </div>
+  </div>
+
   <header class="site-header" id="top">
     <nav class="navbar container" aria-label="Main navigation">
       <a href="#top" class="logo" aria-label="Tesla home">TESLA</a>
@@ -189,6 +200,64 @@
       </div>
     </section>
 
+    <section id="compare" class="compare section">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Compare</p>
+          <h2>Pick the model that matches your lifestyle</h2>
+        </div>
+        <div class="compare-grid" role="table" aria-label="Tesla model comparison table">
+          <article class="compare-card" role="row">
+            <h3>Model S</h3>
+            <p><strong>Range:</strong> Up to 405 mi</p>
+            <p><strong>0-60 mph:</strong> 1.99s</p>
+            <p><strong>Best for:</strong> Performance-first drivers</p>
+          </article>
+          <article class="compare-card" role="row">
+            <h3>Model 3</h3>
+            <p><strong>Range:</strong> Up to 363 mi</p>
+            <p><strong>0-60 mph:</strong> 3.1s</p>
+            <p><strong>Best for:</strong> Everyday premium commuting</p>
+          </article>
+          <article class="compare-card" role="row">
+            <h3>Model X</h3>
+            <p><strong>Range:</strong> Up to 348 mi</p>
+            <p><strong>0-60 mph:</strong> 2.5s</p>
+            <p><strong>Best for:</strong> Family space + utility</p>
+          </article>
+          <article class="compare-card" role="row">
+            <h3>Model Y</h3>
+            <p><strong>Range:</strong> Up to 330 mi</p>
+            <p><strong>0-60 mph:</strong> 3.5s</p>
+            <p><strong>Best for:</strong> Versatile daily travel</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="faq section">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">FAQ</p>
+          <h2>Questions drivers ask before switching</h2>
+        </div>
+        <div class="faq-list">
+          <details>
+            <summary>How long does home charging usually take?</summary>
+            <p>Most overnight home setups recharge comfortably while you sleep, depending on charger type and battery level.</p>
+          </details>
+          <details>
+            <summary>Can I travel long-distance confidently?</summary>
+            <p>Yes. Route planning integrates charging stops automatically and helps you optimize trip timing.</p>
+          </details>
+          <details>
+            <summary>Does the car improve over time?</summary>
+            <p>Over-the-air software updates can deliver refinements, new functionality, and improved efficiency.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
     <section id="contact" class="contact section">
       <div class="container contact-panel">
         <div>
@@ -207,5 +276,7 @@
   <footer class="footer container">
     <p>&copy; 2026 Tesla-inspired premium concept. Crafted with HTML and CSS.</p>
   </footer>
+
+  <a href="#top" class="to-top" aria-label="Back to top">Top</a>
 </body>
 </html>
